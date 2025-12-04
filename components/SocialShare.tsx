@@ -9,7 +9,7 @@ const SocialShare: React.FC<SocialShareProps> = ({ score, percentile }) => {
   const [copied, setCopied] = useState(false);
   
   // Hardcode the URL to ensure clean social sharing (avoids blob: or localhost URLs)
-  const appUrl = 'https://roscore.ai'; 
+  const appUrl = 'https://ro-score.vercel.app/'; 
   
   const shareText = `I just scored ${score}/100 on ROscore ai - The Indian Tech Resume Rater! 🚀\n\nMy resume is in the Top ${percentile}% of candidates.\n\nCheck your score here: ${appUrl}\n\n#ROscoreAI #ResumeReview #TechCareers`;
   
